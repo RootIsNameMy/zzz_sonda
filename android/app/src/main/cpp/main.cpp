@@ -2,7 +2,7 @@
 // Created by martines on 13. 1. 21.
 //
 
-#include "BattleMapApp.h"
+#include "sonda_game.h"
 #include "glad/glad.h"
 #include "SDL.h"
 

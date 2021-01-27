@@ -7,14 +7,15 @@
 
 
 
-#include "engine_includes.h"
+#include "camera_controller.h"
+#include "sonda.h"
 
 
-class Game: public arc::Application {
+class SondaGame: public arc::Application {
 public:
 
 
-    Game();
+    SondaGame();
     void Init() override;
     void Dispose() override;
     void Update() override;
@@ -22,8 +23,9 @@ public:
 
 
 private:
+    CameraController camera_;
     arc::BatchRenderer renderer_;
-    arc::OrthographicCamera camera_;
+    Sonda sonda_;
 
 
 
